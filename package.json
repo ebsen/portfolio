@@ -1,0 +1,18 @@
+{
+  "name": "static-boilerplate",
+  "description": "A template for static websites",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.0.0",
+    "gulp": "^3.8.10",
+    "gulp-debug": "^1.0.1",
+    "gulp-util": "^3.0.3",
+    "harp": "^0.17.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.2.5",
+    "headroom.js": "wickynilliams/headroom.js",
+    "normalize.css": "^3.0.3",
+    "smooth-scroll": "cferdinandi/smooth-scroll"
+  }
+}

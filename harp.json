@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "name"        : "Static Boilerplate",
+    "description" : "A template for static websites"
+  }
+}

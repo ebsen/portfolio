@@ -1,0 +1,40 @@
+header {
+  // background-color: map-get($greys, 'dark');
+  background-color: $accent;
+  border-bottom: .25rem solid map-get($greys, dark);
+  // color: map-get($greys, 'light');
+  color: $white;
+  // text-align: right;
+  // padding: $defaultSpacing * 2;
+  padding: $defaultSpacing/2;
+  // margin-top: 0;
+  text-align: center;
+  a {
+    // color: map-get($greys, light);
+    color: $white;
+    // color: $accent;
+    // color: $accent;
+    // font-weight: bold;
+
+    &:hover {
+      // color: $accent;
+      text-decoration: underline;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    list-style-type: none;
+    // padding-left: $defaultSpacing;
+  }
+  li + li {
+    padding-left: $defaultSpacing;
+  }
+  .title {
+    // padding-top: 1.25rem;
+    margin: 0;
+  }
+}

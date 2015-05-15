@@ -1,0 +1,23 @@
+// SCREEN SIZES
+$small_screen: "(min-width: 35.5em)";     //  568px
+$medium_screen: "(min-width: 48em)";      //  768px
+$large_screen: "(min-width: 64em)";       // 1024px
+$extra_large_screen: "(min-width: 80em)"; // 1280px
+
+// COLOR
+$white: rgb(255, 255, 255);
+$greys: (
+  light: rgb(176, 176, 176),
+  medium: rgb(87, 87, 87),
+  dark: rgb(3, 3, 3)
+);
+$blue: rgb(14, 96, 159);
+
+$accent: $blue;
+
+// SIZES
+$defaultSize: 1rem;
+
+$defaultSpacing: $defaultSize;
+// $defaultTextColor: $greyDark;
+$defaultTextColor: map-get($greys, 'dark');
