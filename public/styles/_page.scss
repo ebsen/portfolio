@@ -1,3 +1,5 @@
+// margin|padding: top sides bottom;
+
 // $borderValue: .25rem solid map-get($greys, light);
 $borderValue: .0625rem solid map-get($greys, light);
 // $borderValue: .25rem solid map-get($greys, dark);
@@ -10,49 +12,153 @@ article {
   border-top: $borderValue;
   padding: $defaultSpacing/2 0 $defaultSpacing/2;
 
-  @media screen and #{$small_screen} {
-    &:after {
-      content: "";
-      display: table;
-      clear: both;
+  // @media screen and #{$small_screen} {
+  //   &:after {
+  //     content: "";
+  //     display: table;
+  //     clear: both;
+  //   }
+  // }
+
+  // .screenshot {
+  //   font-weight: bold;
+  //   text-align: center;
+  // }
+  //
+  // .desktop {
+  //   img:after {
+  //     // content: "Desktop";
+  //   }
+  // }
+  //
+  // .mobile {
+  //   float: left;
+  //   width: 40%;
+  //   &:after {
+  //     content: "Mobile";
+  //   }
+  //
+  //   img {
+  //     // width: 40%;
+  //     // &:after {
+  //     //   content: "Mobile";
+  //     // }
+  //   }
+  // }
+
+  // p {
+  //   margin: 0 auto;
+  //   max-width: $defaultSpacing*40; // maybe 60-75 characters?
+  // }
+
+  // .screenshots {
+  //   display: table;
+  //   margin: 0 auto;
+  // }
+  //
+  // .desktop, .mobile {
+  //   font-weight: bold;
+  //   text-align: center;
+  //
+  //   @media screen and #{$small_screen} {
+  //     display: inline;
+  //     width: 50%;
+  //
+  //     img {
+  //       // height: $defaultSpacing * 16;
+  //       height: 35.5em;
+  //       // max-width: 50%;
+  //     }
+  //   }
+  //
+  //   // img {
+  //   //   max-width: 100%;
+  //   // }
+  // }
+
+  // .desktop {
+  //   @media screen and #{$small_screen} {
+  //     padding-left: $defaultSpacing/4;
+  //   }
+  // }
+
+  // .mobile {
+  //   @media screen and #{$small_screen} {
+  //     padding-right: $defaultSpacing/4;
+  //   }
+  // }
+
+  // img {
+  //   // @media screen and #{$below_small_screen} {
+  //     display: block;
+  //     width: 80%;
+  //   // }
+  // }
+
+  // .desktop {
+  //   @media screen and #{$small_screen} {
+  //     width: 40%;
+  //   }
+  // }
+
+  // .mobile {
+  //   @media screen and #{$small_screen} {
+  //     width: 20%;
+  //   }
+  // }
+
+  // &:nth-child(even) {
+  //   .desktop, .mobile {
+  //     // @media screen and #{$small_screen} {
+  //       float: right;
+  //       margin-left: $defaultSpacing/2;
+  //     // }
+  //   }
+  // }
+  //
+  // &:nth-child(odd) {
+  //   .desktop, .mobile {
+  //     // @media screen and #{$small_screen} {
+  //       float: left;
+  //       margin-right: $defaultSpacing/2;
+  //     // }
+  //   }
+  // }
+
+  .large, .small {
+    float: left;
+    background-color: map-get($greys, light);
+  }
+
+  .large {
+    width: 100%;
+    @media screen and #{$small_screen} {
+      // display: inline-block;
+      width: 60%;
     }
   }
 
-  .desktop, .mobile {
-    width: 100%;
-  }
-
-  .desktop {
+  .small {
+    // display: inline;
+    width: 50%;
     @media screen and #{$small_screen} {
+      // display: block;
       width: 40%;
     }
   }
 
-  .mobile {
-    @media screen and #{$small_screen} {
-      width: 20%;
-    }
+  span {
+    background-color: map-get($greys, light);
+    border-radius: 3px;
+    display: table;
+    // margin: 0 auto $defaultSpacing/2;
+    margin: 0 auto;
+    padding: 0 $defaultSpacing/4;
+    // text-align: center;
   }
 
-  &:nth-child(even) {
-    .desktop, .mobile {
-      @media screen and #{$small_screen} {
-        float: right;
-        margin-left: $defaultSpacing/2;
-      }
-    }
-  }
-
-  &:nth-child(odd) {
-    .desktop, .mobile {
-      @media screen and #{$small_screen} {
-        float: left;
-        margin-right: $defaultSpacing/2;
-      }
-    }
-  }
-
-  h3 {
+  h1, h2, h3, h4, h5, h6 {
+    // margin-bottom: $defaultSpacing/2;
     text-align: center;
   }
 }

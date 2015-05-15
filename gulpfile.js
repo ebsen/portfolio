@@ -38,7 +38,12 @@ gulp.task('serve', function () {
   gulp.watch('public/**/*.scss', function () {
     browserSync.reload('main.css');
   });
-  gulp.watch(['public/**/*.jade', 'public/**/*.md', 'public/**/*.js'], function () {
+  gulp.watch([
+    'harp.json',
+    'public/**/*.jade',
+    'public/**/*.md',
+    'public/**/*.js'
+  ], function () {
     browserSync.reload();
   });
 });

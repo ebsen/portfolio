@@ -1,0 +1,1 @@
+A little single-page hymnal/web app of sorts for a few of the (public domain) songs we sing on Sundays with the kids. It allowed a good excuse to experiment with Jade, Harp, and Crockford-style JavaScript. It includes the greatest, most beautiful piece of template code ever written (by me).

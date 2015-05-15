@@ -1,6 +1,114 @@
 {
   "globals": {
-    "name"        : "Static Boilerplate",
-    "description" : "A template for static websites"
+    "name"        : "ebsen.me",
+    "description" : "Portfolio",
+    "projects": [
+      {
+        "title": "Agricultural Heritage Museum",
+        "description": "agmuseum",
+        "url": "agmuseum.com",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Graduation 2014",
+        "description": "graduation-2014",
+        "url": "sdstate.edu/graduation",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Graduation 2015",
+        "description": "graduation-2015",
+        "url": "sdstate.edu/graduation",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Hobo Day Parade 2014",
+        "description": "hobo-day-parade",
+        "url": "sdstate.edu/parade",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "2014 Holiday Video",
+        "description": "holiday-2014",
+        "url": "sdstate.edu/holiday",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "News Center",
+        "description": "news-center",
+        "url": "live-sdsu-news-center.pantheon.io",
+        "type": "professional",
+        "images": {
+          "alt": "",
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Public Website",
+        "description": "commonspot",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Game Time",
+        "description": "gametime",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "ebsen.me",
+        "description": "ebsen",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Rock-Paper-Scissors",
+        "description": "rock-paper-scissors",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Songbook",
+        "description": "songbook",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      }
+    ]
   }
 }

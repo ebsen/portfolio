@@ -1,0 +1,1 @@
+The current iteration of the graduation website adds social media integration through Storify, a music playlist from Spotify, and a Facebook photo album. I also scripted our Git deployment process to make publishing and updating the site much simpler.

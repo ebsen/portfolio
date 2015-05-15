@@ -1,0 +1,1 @@
+The website for our first-ever live stream of the annual Hobo Day parade. We used Tagboard for the social media integration and Harp, Jade, and Less to build the website. This project grew into the template we use for many of our future static sites.
