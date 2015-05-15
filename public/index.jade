@@ -10,11 +10,3 @@ each project in projects
     h2= project.title
     != partial("_partials/" + project.description)
     span= project.type
-    //- .screenshot.mobile
-    //- img.screenshot.mobile(alt=project.url src="../images/" + project.description + "-mobile.png")
-    //- |Mobile
-    //- .screenshot.desktop
-      img(alt=project.url src="../images/" + project.description + "-desktop.png")
-      //- |Desktop
-    //- img.mobile(alt=project.url src="../images/" + project.description + "-mobile.png")
-    //- img.desktop(alt=project.url src="../images/" + project.description + "-desktop.png")

@@ -12,119 +12,6 @@ article {
   border-top: $borderValue;
   padding: $defaultSpacing/2 0 $defaultSpacing/2;
 
-  // @media screen and #{$small_screen} {
-  //   &:after {
-  //     content: "";
-  //     display: table;
-  //     clear: both;
-  //   }
-  // }
-
-  // .screenshot {
-  //   font-weight: bold;
-  //   text-align: center;
-  // }
-  //
-  // .desktop {
-  //   img:after {
-  //     // content: "Desktop";
-  //   }
-  // }
-  //
-  // .mobile {
-  //   float: left;
-  //   width: 40%;
-  //   &:after {
-  //     content: "Mobile";
-  //   }
-  //
-  //   img {
-  //     // width: 40%;
-  //     // &:after {
-  //     //   content: "Mobile";
-  //     // }
-  //   }
-  // }
-
-  // p {
-  //   margin: 0 auto;
-  //   max-width: $defaultSpacing*40; // maybe 60-75 characters?
-  // }
-
-  // .screenshots {
-  //   display: table;
-  //   margin: 0 auto;
-  // }
-  //
-  // .desktop, .mobile {
-  //   font-weight: bold;
-  //   text-align: center;
-  //
-  //   @media screen and #{$small_screen} {
-  //     display: inline;
-  //     width: 50%;
-  //
-  //     img {
-  //       // height: $defaultSpacing * 16;
-  //       height: 35.5em;
-  //       // max-width: 50%;
-  //     }
-  //   }
-  //
-  //   // img {
-  //   //   max-width: 100%;
-  //   // }
-  // }
-
-  // .desktop {
-  //   @media screen and #{$small_screen} {
-  //     padding-left: $defaultSpacing/4;
-  //   }
-  // }
-
-  // .mobile {
-  //   @media screen and #{$small_screen} {
-  //     padding-right: $defaultSpacing/4;
-  //   }
-  // }
-
-  // img {
-  //   // @media screen and #{$below_small_screen} {
-  //     display: block;
-  //     width: 80%;
-  //   // }
-  // }
-
-  // .desktop {
-  //   @media screen and #{$small_screen} {
-  //     width: 40%;
-  //   }
-  // }
-
-  // .mobile {
-  //   @media screen and #{$small_screen} {
-  //     width: 20%;
-  //   }
-  // }
-
-  // &:nth-child(even) {
-  //   .desktop, .mobile {
-  //     // @media screen and #{$small_screen} {
-  //       float: right;
-  //       margin-left: $defaultSpacing/2;
-  //     // }
-  //   }
-  // }
-  //
-  // &:nth-child(odd) {
-  //   .desktop, .mobile {
-  //     // @media screen and #{$small_screen} {
-  //       float: left;
-  //       margin-right: $defaultSpacing/2;
-  //     // }
-  //   }
-  // }
-
   .large, .small {
     float: left;
     background-color: map-get($greys, light);
@@ -133,16 +20,13 @@ article {
   .large {
     width: 100%;
     @media screen and #{$small_screen} {
-      // display: inline-block;
       width: 60%;
     }
   }
 
   .small {
-    // display: inline;
     width: 50%;
     @media screen and #{$small_screen} {
-      // display: block;
       width: 40%;
     }
   }
