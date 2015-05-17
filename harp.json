@@ -1,11 +1,12 @@
 {
   "globals": {
     "name"        : "ebsen.me",
-    "description" : "Portfolio",
+    "prefix" : "Portfolio",
     "projects": [
       {
         "title": "Agricultural Heritage Museum",
         "description": "agmuseum",
+        "prefix": "agm",
         "url": "agmuseum.com",
         "type": "professional",
         "images": {
@@ -16,6 +17,7 @@
       {
         "title": "Graduation 2014",
         "description": "graduation-2014",
+        "prefix": "grad14",
         "url": "sdstate.edu/graduation",
         "type": "professional",
         "images": {
@@ -26,6 +28,7 @@
       {
         "title": "Graduation 2015",
         "description": "graduation-2015",
+        "prefix": "grad15",
         "url": "sdstate.edu/graduation",
         "type": "professional",
         "images": {
@@ -36,6 +39,7 @@
       {
         "title": "Hobo Day Parade 2014",
         "description": "hobo-day-parade",
+        "prefix": "hobo",
         "url": "sdstate.edu/parade",
         "type": "professional",
         "images": {
@@ -46,6 +50,7 @@
       {
         "title": "2014 Holiday Video",
         "description": "holiday-2014",
+        "prefix": "holi14",
         "url": "sdstate.edu/holiday",
         "type": "professional",
         "images": {
@@ -56,6 +61,7 @@
       {
         "title": "News Center",
         "description": "news-center",
+        "prefix": "news",
         "url": "live-sdsu-news-center.pantheon.io",
         "type": "professional",
         "images": {
@@ -67,6 +73,7 @@
       {
         "title": "Public Website",
         "description": "commonspot",
+        "prefix": "cfm",
         "type": "professional",
         "images": {
           "desktop": "",
@@ -75,7 +82,7 @@
       },
       {
         "title": "Game Time",
-        "description": "gametime",
+        "prefix": "game",
         "type": "personal",
         "images": {
           "desktop": "",
@@ -84,7 +91,7 @@
       },
       {
         "title": "ebsen.me",
-        "description": "ebsen",
+        "prefix": "ebsen",
         "type": "personal",
         "images": {
           "desktop": "",
@@ -93,7 +100,7 @@
       },
       {
         "title": "Rock-Paper-Scissors",
-        "description": "rock-paper-scissors",
+        "prefix": "rps",
         "type": "personal",
         "images": {
           "desktop": "",
@@ -103,6 +110,7 @@
       {
         "title": "Songbook",
         "description": "songbook",
+        "prefix": "song",
         "type": "personal",
         "images": {
           "desktop": "",

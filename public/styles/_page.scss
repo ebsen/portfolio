@@ -6,15 +6,23 @@ $borderValue: .0625rem solid map-get($greys, light);
 
 article {
   padding: $defaultSpacing / 2;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .project {
   border-top: $borderValue;
-  padding: $defaultSpacing/2 0 $defaultSpacing/2;
+  // padding: $defaultSpacing/2 0 $defaultSpacing/2;
+  padding: $defaultSpacing*2 0;
+
+  .full {
+    // background-color: map-get($greys, light); // FIXME
+    width: 100%;
+  }
 
   .large, .small {
     float: left;
-    background-color: map-get($greys, light);
+    // background-color: map-get($greys, light); // FIXME
   }
 
   .large {
@@ -31,18 +39,63 @@ article {
     }
   }
 
+  .mobile {
+    width: 40%;
+    @media screen and #{$small_screen} {
+      width: 30%;
+    }
+    @media screen and #{$medium_screen} {
+      width: 20%;
+    }
+  }
+
+  .promo {
+    // padding-right: : $defaultSpacing / 2;
+    width: 100%;
+
+    @media screen and #{$small_screen} {
+      // float: left;
+      // padding-right: $defaultSpacing / 2;
+      display: table;
+      margin: 0 auto;
+      width: 60%;
+    }
+  }
+
+  &:nth-child(odd) {
+    .mobile {
+      float: left;
+      padding-right: $defaultSpacing / 2;
+    }
+  }
+  &:nth-child(even) {
+    .mobile {
+      float: right;
+      padding-left: $defaultSpacing / 2;
+    }
+    // .promo {
+    //   @media screen and #{$small_screen} {
+    //     float: right;
+    //     padding-left: $defaultSpacing / 2;
+    //   }
+    // }
+  }
+
   span {
-    background-color: map-get($greys, light);
+    background-color: lighten(map-get($greys, light), 20);
     border-radius: 3px;
-    display: table;
+    // display: table;
     // margin: 0 auto $defaultSpacing/2;
-    margin: 0 auto;
+    // margin: 0 auto;
     padding: 0 $defaultSpacing/4;
     // text-align: center;
   }
 
   h1, h2, h3, h4, h5, h6 {
+    @media screen and #{$small_screen} {
+      margin-top: 0;
+    }
     // margin-bottom: $defaultSpacing/2;
-    text-align: center;
+    // text-align: center;
   }
 }

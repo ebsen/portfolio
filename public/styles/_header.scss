@@ -15,9 +15,10 @@ header {
     // color: $accent;
     // color: $accent;
     // font-weight: bold;
+    text-decoration: none;
 
     &:hover {
-      // color: $accent;
+      color: $white;
       text-decoration: underline;
     }
   }
