@@ -1,7 +1,7 @@
 {
   "globals": {
-    "name"        : "ebsen.me",
-    "prefix" : "Portfolio",
+    "name": "ebsen.me",
+    "prefix": "Portfolio",
     "projects": [
       {
         "title": "Agricultural Heritage Museum",

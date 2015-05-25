@@ -7,7 +7,8 @@ $borderValue: .0625rem solid map-get($greys, light);
 article {
   padding: $defaultSpacing / 2;
   margin: 0 auto;
-  max-width: 800px;
+  // max-width: 800px; // 50 rem?
+  max-width: 40rem;
 }
 
 .project {

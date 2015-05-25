@@ -27,10 +27,11 @@ body {
 a {
   color: $defaultTextColor;
   font-weight: bold;
-  // text-decoration: none;
+  text-decoration: none;
   &:hover, &:focus {
     // background-color: $accent;
     color: map-get($greys, medium);
+    text-decoration: underline;
   }
 }
 
