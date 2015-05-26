@@ -10,6 +10,9 @@ each project in projects
     //- if project.images.mobile
     //- != partial("_linked-image", {project: project.prefix, url: project.url})
     //- img.promo(alt="#{project.url}" src="images/" + project.description + "-mobile.png")
+    .screenshots
+      img.small(alt="#{project.url}" src="images/" + project.prefix + "-mobile.png")
+      img.large(alt="#{project.url}" src="images/" + project.prefix + "-desktop.png")
     h2(id="#{project.description}") #{project.title}
     //- img.mobile(alt="#{project.url}" src="images/" + project.description + "-mobile.png")
     != partial("_pages/" + project.description)
