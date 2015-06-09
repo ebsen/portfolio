@@ -15,6 +15,46 @@
         }
       },
       {
+        "title": "ebsen.me",
+        "description": "ebsen",
+        "prefix": "ebsen",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Frosty Ticket 2.0",
+        "description": "frosty",
+        "prefix": "frosty",
+        "type": "professional",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "West Boyd College Connection",
+        "description": "west-boyd",
+        "prefix": "wbcc",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
+        "title": "Game Time",
+        "description": "gametime",
+        "prefix": "game",
+        "type": "personal",
+        "images": {
+          "desktop": "",
+          "mobile": ""
+        }
+      },
+      {
         "title": "Graduation 2014",
         "description": "graduation-2014",
         "prefix": "grad14",
@@ -48,7 +88,7 @@
         }
       },
       {
-        "title": "2014 Holiday Video",
+        "title": "Holiday Video 2014",
         "description": "holiday-2014",
         "prefix": "holi14",
         "url": "sdstate.edu/holiday",
@@ -81,25 +121,8 @@
         }
       },
       {
-        "title": "Game Time",
-        "prefix": "game",
-        "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
-      },
-      {
-        "title": "ebsen.me",
-        "prefix": "ebsen",
-        "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
-      },
-      {
-        "title": "Rock-Paper-Scissors",
+        "title": "Rock, Paper, Scissors",
+        "description": "rock-paper-scissors",
         "prefix": "rps",
         "type": "personal",
         "images": {

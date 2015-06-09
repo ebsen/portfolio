@@ -1,5 +1,18 @@
 // margin|padding: top sides bottom;
 
+// Notes on getting the images set
+// mobile
+// 974 × 1602 pixels
+// 0.6079900125
+//
+// desktop
+// 2776 × 1778 pixels
+// 1.5613048369
+//
+// 640 max width (~180 ~460)
+
+
+
 // $borderValue: .25rem solid map-get($greys, light);
 $borderValue: .0625rem solid map-get($greys, light);
 // $borderValue: .25rem solid map-get($greys, dark);

@@ -1,1 +1,0 @@
-A custom-themed WordPress site built from Photoshop designs. I and two student developers prototyped the design using Foundation and Node.js, then converted the resulting code into WordPress. It features a prominent carousel on the homepage and several post types to display information in various places across the site.
