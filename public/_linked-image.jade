@@ -1,2 +1,4 @@
-a(href="//#{url}")
-  img.promo(alt="#{url}" src="images/" + project + "-sm.png")
+if project.images
+  a(href="//#{project.url}")
+    img.small(alt="#{project.url}" src="images/" + project.prefix + "-mobile.png")
+    img.large(alt="#{project.url}" src="images/" + project.prefix + "-desktop.png")

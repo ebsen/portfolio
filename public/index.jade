@@ -1,20 +1,10 @@
 p Hello. My name is Erik Ebsen. The following is a collection of things I've built or been a part of building, both for my job as a web developer for South Dakota State University and personal side projects on my own time.
-p Filter projects by <span id="show-professional" class="show-projects">professional</span> or <span id="show-personal" class="show-projects">personal</span>. Show <span id="show-all" class="show-projects">all</span>.
+p Show #[span(id="show-professional" class="show-projects") professional projects], #[span(id="show-personal" class="show-projects") personal projects], or #[span(id="show-all" class="show-projects") all projects].
 p Click an image to view the site.
 
 each project in projects
   div(id="#{project.description}" class="project #{project.type}")
-    //- .full Full
-    //- .large Large
-    //- .small Small
-    //- .small Small
-    //- if project.images.mobile
-    //- != partial("_linked-image", {project: project.prefix, url: project.url})
-    //- img.promo(alt="#{project.url}" src="images/" + project.description + "-mobile.png")
-    .screenshots
-      img.small(alt="#{project.url}" src="images/" + project.prefix + "-mobile.png")
-      img.large(alt="#{project.url}" src="images/" + project.prefix + "-desktop.png")
+    .screenshots!= partial("_linked-image", {project: project})
     h2 #{project.title}
-    //- img.mobile(alt="#{project.url}" src="images/" + project.description + "-mobile.png")
+    span.type #{project.type}
     != partial("_pages/" + project.description)
-    //- span #{project.type}

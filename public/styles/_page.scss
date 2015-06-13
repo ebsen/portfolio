@@ -115,17 +115,24 @@ article {
     // }
   }
 
-  span {
+  .type {
     background-color: lighten(map-get($greys, light), 20);
     border-radius: 3px;
     // display: table;
     // margin: 0 auto $defaultSpacing/2;
     // margin: 0 auto;
+    margin-left: $defaultSpacing / 2;
     padding: 0 $defaultSpacing/4;
     // text-align: center;
   }
 
+  p:first-of-type {
+    margin-top: 0;
+  }
+
   h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+
     @media screen and #{$small_screen} {
       margin-top: 0;
     }

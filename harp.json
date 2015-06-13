@@ -9,50 +9,37 @@
         "prefix": "agm",
         "url": "agmuseum.com",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "ebsen.me",
         "description": "ebsen",
         "prefix": "ebsen",
+        "url": "ebsen.me",
         "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": false
       },
       {
         "title": "Frosty Ticket 2.0",
         "description": "frosty",
         "prefix": "frosty",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": false
       },
       {
         "title": "West Boyd College Connection",
         "description": "west-boyd",
         "prefix": "wbcc",
         "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": false
       },
       {
         "title": "Game Time",
         "description": "gametime",
         "prefix": "game",
+        "url": "gametime.ebsen.me",
         "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "Graduation 2014",
@@ -60,10 +47,7 @@
         "prefix": "grad14",
         "url": "sdstate.edu/graduation",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "Graduation 2015",
@@ -71,10 +55,7 @@
         "prefix": "grad15",
         "url": "sdstate.edu/graduation",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "Hobo Day Parade 2014",
@@ -82,10 +63,7 @@
         "prefix": "hobo",
         "url": "sdstate.edu/parade",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "Holiday Video 2014",
@@ -93,10 +71,7 @@
         "prefix": "holi14",
         "url": "sdstate.edu/holiday",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "News Center",
@@ -106,7 +81,7 @@
         "type": "professional",
         "images": {
           "alt": "",
-          "desktop": "",
+          "desktop": false,
           "mobile": ""
         }
       },
@@ -114,31 +89,25 @@
         "title": "Public Website",
         "description": "commonspot",
         "prefix": "cfm",
+        "url": "www.sdstate.edu",
         "type": "professional",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       },
       {
         "title": "Rock, Paper, Scissors",
         "description": "rock-paper-scissors",
         "prefix": "rps",
+        "url": "rockpaperscissors.ebsen.me",
         "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": false
       },
       {
         "title": "Songbook",
         "description": "songbook",
         "prefix": "song",
+        "url": "songbook.ebsen.me",
         "type": "personal",
-        "images": {
-          "desktop": "",
-          "mobile": ""
-        }
+        "images": true
       }
     ]
   }
