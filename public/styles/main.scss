@@ -24,8 +24,9 @@ body {
   // font-family: 'Libre Baskerville', serif;
 }
 
-a {
+.action {
   color: $defaultTextColor;
+  cursor: pointer;
   font-weight: bold;
   text-decoration: none;
   &:hover, &:focus {
@@ -33,6 +34,10 @@ a {
     color: map-get($greys, medium);
     text-decoration: underline;
   }
+}
+
+a {
+  @extend .action;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,4 +52,12 @@ footer {
   color: $white;
   // color: map-get($greys, light);
   padding: $defaultSpacing / 2;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-projects {
+  @extend .action;
 }

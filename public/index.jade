@@ -1,8 +1,9 @@
 p Hello. My name is Erik Ebsen. The following is a collection of things I've built or been a part of building, both for my job as a web developer for South Dakota State University and personal side projects on my own time.
-p Filter projects by professional or personal. Click an image to view the site.
+p Filter projects by <span id="show-professional" class="show-projects">professional</span> or <span id="show-personal" class="show-projects">personal</span>. Show <span id="show-all" class="show-projects">all</span>.
+p Click an image to view the site.
 
 each project in projects
-  .project
+  div(id="#{project.description}" class="project #{project.type}")
     //- .full Full
     //- .large Large
     //- .small Small
@@ -13,7 +14,7 @@ each project in projects
     .screenshots
       img.small(alt="#{project.url}" src="images/" + project.prefix + "-mobile.png")
       img.large(alt="#{project.url}" src="images/" + project.prefix + "-desktop.png")
-    h2(id="#{project.description}") #{project.title}
+    h2 #{project.title}
     //- img.mobile(alt="#{project.url}" src="images/" + project.description + "-mobile.png")
     != partial("_pages/" + project.description)
     //- span #{project.type}
