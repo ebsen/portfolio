@@ -121,7 +121,7 @@ article {
     // display: table;
     // margin: 0 auto $defaultSpacing/2;
     // margin: 0 auto;
-    margin-left: $defaultSpacing / 2;
+    // margin-left: $defaultSpacing / 2;
     padding: 0 $defaultSpacing/4;
     // text-align: center;
   }
@@ -131,12 +131,25 @@ article {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    display: inline-block;
+    // display: inline-block;
+    // margin-right: $defaultSpacing / 2;
 
     @media screen and #{$small_screen} {
       margin-top: 0;
     }
     // margin-bottom: $defaultSpacing/2;
     // text-align: center;
+  }
+}
+
+// ----------
+
+nav {
+  ul {
+    margin-left: none;
+  }
+  li {
+    display: inline-block;
+    list-style-type: none;
   }
 }

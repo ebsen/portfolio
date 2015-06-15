@@ -1,10 +1,14 @@
 p Hello. My name is Erik Ebsen. The following is a collection of things I've built or been a part of building, both for my job as a web developer for South Dakota State University and personal side projects on my own time.
 p Show #[span(id="show-professional" class="show-projects") professional projects], #[span(id="show-personal" class="show-projects") personal projects], or #[span(id="show-all" class="show-projects") all projects].
-p Click an image to view the site.
-
+p Click an image to view the site. Projects without a screenshot are not yet published.
+//- h4 Projects
+//- nav
+  ul
+    each project in projects
+      li: a(href="##{project.description}") #{project.title}
 each project in projects
-  div(id="#{project.description}" class="project #{project.type}")
+  div(id="#{project.description}" class="project #{project.type} animated")
     .screenshots!= partial("_linked-image", {project: project})
     h2 #{project.title}
-    span.type #{project.type}
+    //- span.type #{project.type}
     != partial("_pages/" + project.description)
