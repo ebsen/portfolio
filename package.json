@@ -1,6 +1,6 @@
 {
-  "name": "static-boilerplate",
-  "description": "A template for static websites",
+  "name": "ebsen.me: a portfolio",
+  "description": "A demonstration of recent web projects",
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.0.0",
