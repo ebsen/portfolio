@@ -1,6 +1,6 @@
 {
-  "name": "ebsen.me portfolio",
-  "description": "A demonstration of recent web projects",
+  "name": "ebsen.me",
+  "description": "A porfolio of recent web projects",
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.0.0",
