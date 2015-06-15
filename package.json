@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "animate.css": "^3.2.5",
-    "headroom.js": "wickynilliams/headroom.js",
     "normalize.css": "^3.0.3",
     "smooth-scroll": "cferdinandi/smooth-scroll"
+  },
+  "scripts": {
+    "deploy": "gulp compile && surge www"
   }
 }
