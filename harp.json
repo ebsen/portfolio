@@ -17,7 +17,7 @@
         "prefix": "ebsen",
         "url": "ebsen.me",
         "type": "personal",
-        "images": false
+        "images": true
       },
       {
         "title": "Frosty Ticket 2.0",
