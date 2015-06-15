@@ -6,4 +6,4 @@ Hello. My name is Erik Ebsen. I'm a Christian, a husband, and a father of three.
 
 ## The website
 
-This website is built with BrowserSync, Gulp, and Harp, among other things (like ☕️).
+This website is built with [BrowserSync](http://www.browsersync.io/), [Gulp](http://gulpjs.com/), [Harp](http://harpjs.com/), and ☕️.
